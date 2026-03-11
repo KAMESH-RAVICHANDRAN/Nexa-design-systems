@@ -1,0 +1,53 @@
+{
+  "theme": "dark",
+  "colors": {
+    "primary": {
+      "black": "#0F0F0F",
+      "dark": "#171717",
+      "surface": "#1F1F1F",
+      "white": "#FFFFFF"
+    },
+    "neutral": {
+      "900": "#0F0F0F",
+      "800": "#171717",
+      "700": "#1F1F1F",
+      "600": "#2A2A2A",
+      "500": "#404040",
+      "400": "#6B6B6B",
+      "300": "#9A9A9A",
+      "200": "#CFCFCF"
+    },
+    "background": {
+      "main": "#0F0F0F",
+      "section": "#171717",
+      "card": "#1F1F1F",
+      "elevated": "#2A2A2A"
+    },
+    "text": {
+      "primary": "#FFFFFF",
+      "secondary": "#CFCFCF",
+      "muted": "#9A9A9A",
+      "disabled": "#6B6B6B"
+    },
+    "border": {
+      "subtle": "#2A2A2A",
+      "default": "#404040"
+    },
+    "buttons": {
+      "primary": {
+        "background": "#FFFFFF",
+        "text": "#0F0F0F"
+      },
+      "secondary": {
+        "background": "transparent",
+        "border": "#404040",
+        "text": "#FFFFFF"
+      }
+    }
+  },
+  "surfaces": {
+    "navbar": "#0F0F0F",
+    "footer": "#171717",
+    "card": "#1F1F1F"
+  }
+}
