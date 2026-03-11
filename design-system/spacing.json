@@ -1,0 +1,33 @@
+{
+  "spacing": {
+    "grid": "8px",
+    "scale": {
+      "xs": "8px",
+      "sm": "16px",
+      "md": "24px",
+      "lg": "40px",
+      "xl": "64px",
+      "xxl": "120px"
+    }
+  },
+  "layout": {
+    "container": {
+      "maxWidth": "1200px",
+      "padding": "20px"
+    },
+    "grid": {
+      "columns": 12,
+      "gutter": "24px"
+    }
+  },
+  "radius": {
+    "small": "6px",
+    "medium": "8px",
+    "large": "12px"
+  },
+  "motion": {
+    "fast": "0.2s",
+    "normal": "0.3s",
+    "slow": "0.8s"
+  }
+}
