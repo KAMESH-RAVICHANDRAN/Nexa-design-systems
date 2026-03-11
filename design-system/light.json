@@ -1,0 +1,47 @@
+{
+  "theme": "light",
+  "colors": {
+    "primary": {
+      "black": "#34322D",
+      "white": "#FFFFFF",
+      "gray": "#F8F8F8"
+    },
+    "neutral": {
+      "900": "#34322D",
+      "700": "#5B5954",
+      "500": "#8F8E8A",
+      "300": "#D9D9D9",
+      "100": "#F8F8F8"
+    },
+    "background": {
+      "main": "#FFFFFF",
+      "section": "#F8F8F8",
+      "card": "#FFFFFF"
+    },
+    "text": {
+      "primary": "#34322D",
+      "secondary": "#5B5954",
+      "muted": "#8F8E8A"
+    },
+    "border": {
+      "subtle": "#EAEAEA",
+      "default": "#D9D9D9"
+    },
+    "buttons": {
+      "primary": {
+        "background": "#34322D",
+        "text": "#FFFFFF"
+      },
+      "secondary": {
+        "background": "transparent",
+        "border": "#34322D",
+        "text": "#34322D"
+      }
+    }
+  },
+  "surfaces": {
+    "navbar": "#FFFFFF",
+    "footer": "#F8F8F8",
+    "card": "#FFFFFF"
+  }
+}
