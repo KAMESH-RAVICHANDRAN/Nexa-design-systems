@@ -1,0 +1,31 @@
+{
+  "typography": {
+    "fontFamily": {
+      "heading": "Libre Baskerville",
+      "body": "DM Sans",
+      "fallback": "system-ui"
+    },
+    "fontWeight": {
+      "regular": 400,
+      "medium": 500,
+      "bold": 700
+    },
+    "fontSize": {
+      "h1": "56px",
+      "h2": "42px",
+      "h3": "28px",
+      "h4": "22px",
+      "body": "18px",
+      "small": "14px"
+    },
+    "lineHeight": {
+      "heading": 1.2,
+      "body": 1.7
+    },
+    "letterSpacing": {
+      "tight": "-0.02em",
+      "normal": "0",
+      "wide": "0.05em"
+    }
+  }
+}
