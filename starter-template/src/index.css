@@ -253,7 +253,7 @@ body {
   border: 1px solid hsl(var(--color-border));
   border-radius: 12px;
   padding: 1.5rem;
-  transition: all var(--duration-normal) var(--easing-standard));
+  transition: all var(--duration-normal) var(--easing-standard);
   box-shadow: 0 2px 8px rgb(from hsl(var(--color-fg)) r g b / 4%);
 }
 
@@ -331,7 +331,7 @@ body {
   color: hsl(var(--color-fg));
   border: 1px solid hsl(var(--color-border));
   border-radius: 12px;
-  transition: all var(--duration-fast) var(--easing-standard));
+  transition: all var(--duration-fast) var(--easing-standard);
 }
 
 .input::placeholder {
@@ -378,7 +378,7 @@ body {
   padding: 0.625rem 1.5rem;
   font-weight: 600;
   cursor: pointer;
-  transition: opacity var(--duration-fast) var(--easing-standard));
+  transition: opacity var(--duration-fast) var(--easing-standard);
 }
 
 .site-footer-inverse-pill:hover {
@@ -485,5 +485,5 @@ body {
 }
 
 .animate-scale-in {
-  animation: scaleIn var(--duration-fast) var(--easing-standard));
+  animation: scaleIn var(--duration-fast) var(--easing-standard);
 }

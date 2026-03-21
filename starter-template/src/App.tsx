@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import { Moon, Sun } from 'lucide-react'
 import { toggleTheme } from './lib/theme'
 import type { ThemeMode } from './lib/theme'
 import Header from './components/Header'
