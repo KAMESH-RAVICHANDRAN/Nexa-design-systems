@@ -1,21 +1,32 @@
-AJ STUDIOZ Official Design System Tokens
+AJ STUDIOZ Design System (Full Support)
 
-This folder mirrors the live branding tokens used in the official website at:
+This folder is the reusable source-of-truth token package for AJ STUDIOZ projects.
+It keeps AJ branding consistency while supporting Manus-style UI patterns such as elevated cards, chips, prompt inputs, and smooth editorial motion.
 
-E:/AJ STUDIOZ/New folder (5)/ajstudioz-official
+Primary source project:
+- E:/AJ STUDIOZ/New folder (5)/ajstudioz-official
 
-Source of truth:
-- Colors and theme variables: src/index.css
-- Font families and type scale: tailwind.config.ts
-- Layout, spacing, radius, and motion: tailwind.config.ts and src/index.css
+Source mapping:
+- Colors and semantic theme variables: src/index.css
+- Typography and scale: tailwind.config.ts
+- Motion and interaction timing: tailwind.config.ts and src/index.css
+- Card elevation and wordmark treatment: src/index.css
 
-Files
-- light.json: light-mode tokens mapped from :root CSS variables.
-- dark.json: dark-mode tokens mapped from .dark CSS variables.
-- typography.json: official typography families, sizes, line heights, and tracking.
-- spacing.json: spacing scale, layout containers, radius, and motion timing.
+Token files:
+- light.json: light theme semantic color tokens, button tokens, surfaces, elevation, and branding metadata.
+- dark.json: dark theme semantic color tokens, button tokens, surfaces, elevation, and branding metadata.
+- typography.json: AJ STUDIOZ type system (Inter + Newsreader), scale, line-height, tracking, and OpenType settings.
+- spacing.json: 8px spacing grid, layout containers, radii, motion shortcuts, and z-index layers.
+- motion.json: canonical durations, easings, animation strings, and keyframe definitions.
+- components.json: component-level design recipes for cards, buttons, inputs, chips, wordmark, and layout spacing.
 
-Notes
-- Color values are stored in HSL token format to match the official CSS variable format exactly.
-- Utility classes in the official site consume these via hsl(var(--token-name)).
-- If branding changes in the official project, update this folder from the same source files.
+Implementation guidance:
+- Keep semantic color usage (background, foreground, card, accent, muted, border) as first-class API.
+- Use HSL token values through CSS variables to preserve theme switching parity.
+- Prefer component recipes in components.json for consistent Manus-style UI behavior across products.
+- Use motion.json animation names and cubic-bezier curves to maintain interaction consistency.
+
+Maintenance rules:
+- When official branding changes, update token values from ajstudioz-official first.
+- Keep backwards compatibility by adding aliases rather than breaking token names.
+- Version token changes via git commits so product repos can track updates safely.

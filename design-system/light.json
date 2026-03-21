@@ -71,5 +71,19 @@
     "navbarHsl": "40 25% 97%",
     "footerHsl": "40 20% 95%",
     "cardHsl": "40 20% 95%"
+  },
+  "effects": {
+    "cardShadow": "0 1px 3px 0 hsl(220 14% 10% / 0.04), 0 4px 12px -2px hsl(220 14% 10% / 0.06)",
+    "cardShadowHover": "0 4px 16px -2px hsl(220 14% 10% / 0.08), 0 12px 32px -4px hsl(220 14% 10% / 0.1)",
+    "cardShadowElevated": "0 8px 24px -4px hsl(220 14% 10% / 0.1), 0 20px 48px -8px hsl(220 14% 10% / 0.12)"
+  },
+  "branding": {
+    "wordmark": {
+      "fontFamily": "Newsreader, Georgia, serif",
+      "fontStyle": "italic",
+      "fontWeight": 500,
+      "letterSpacing": "-0.02em",
+      "textTransform": "lowercase"
+    }
   }
 }

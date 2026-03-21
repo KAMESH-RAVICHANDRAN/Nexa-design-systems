@@ -1,0 +1,55 @@
+{
+  "motion": {
+    "duration": {
+      "instant": "0.1s",
+      "fast": "0.2s",
+      "normal": "0.3s",
+      "slow": "0.5s",
+      "xslow": "0.7s"
+    },
+    "easing": {
+      "standard": "cubic-bezier(0.16, 1, 0.3, 1)",
+      "decelerate": "ease-out",
+      "linear": "linear"
+    },
+    "animation": {
+      "accordionDown": "accordion-down 0.2s ease-out",
+      "accordionUp": "accordion-up 0.2s ease-out",
+      "fadeIn": "fade-in 0.5s cubic-bezier(0.16, 1, 0.3, 1) forwards",
+      "fadeInUp": "fade-in-up 0.7s cubic-bezier(0.16, 1, 0.3, 1) forwards",
+      "scaleIn": "scale-in 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards"
+    },
+    "keyframes": {
+      "fadeIn": {
+        "from": {
+          "opacity": 0,
+          "transform": "translateY(8px)"
+        },
+        "to": {
+          "opacity": 1,
+          "transform": "translateY(0)"
+        }
+      },
+      "fadeInUp": {
+        "from": {
+          "opacity": 0,
+          "transform": "translateY(16px)"
+        },
+        "to": {
+          "opacity": 1,
+          "transform": "translateY(0)"
+        }
+      },
+      "scaleIn": {
+        "from": {
+          "opacity": 0,
+          "transform": "scale(0.97)"
+        },
+        "to": {
+          "opacity": 1,
+          "transform": "scale(1)"
+        }
+      }
+    }
+  }
+}

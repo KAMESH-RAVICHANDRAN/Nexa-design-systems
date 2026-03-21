@@ -1,0 +1,86 @@
+{
+  "components": {
+    "button": {
+      "pill": {
+        "borderRadius": "9999px",
+        "fontSize": "13px",
+        "fontWeight": 500,
+        "paddingX": "24px",
+        "paddingY": "10px",
+        "transition": "all 0.2s ease"
+      },
+      "primary": {
+        "backgroundToken": "colors.primary.hsl",
+        "textToken": "colors.primary.foregroundHsl",
+        "hoverOpacity": 0.85,
+        "activeScale": 0.98
+      },
+      "secondary": {
+        "background": "transparent",
+        "borderToken": "colors.border.hsl",
+        "textToken": "colors.foreground.hsl",
+        "hoverBackgroundToken": "colors.accent.hsl",
+        "activeScale": 0.98
+      }
+    },
+    "card": {
+      "base": {
+        "backgroundToken": "colors.card.hsl",
+        "borderToken": "colors.border.hsl",
+        "borderRadius": "16px",
+        "shadowToken": "effects.cardShadow"
+      },
+      "interactive": {
+        "hoverShadowToken": "effects.cardShadowHover",
+        "hoverTranslateY": "-4px",
+        "hoverBorderOpacity": 0.15,
+        "transition": "all 0.3s ease"
+      },
+      "elevated": {
+        "shadowToken": "effects.cardShadowElevated"
+      }
+    },
+    "input": {
+      "manus": {
+        "backgroundToken": "colors.card.hsl",
+        "borderToken": "colors.border.hsl",
+        "borderRadius": "12px",
+        "focusBorderOpacity": 0.2,
+        "shadowToken": "effects.cardShadow",
+        "focusShadowToken": "effects.cardShadowHover"
+      }
+    },
+    "chip": {
+      "manus": {
+        "backgroundToken": "colors.card.hsl",
+        "textToken": "colors.muted.foregroundHsl",
+        "borderToken": "colors.border.hsl",
+        "borderRadius": "9999px",
+        "hoverBackgroundToken": "colors.secondary.hsl",
+        "hoverTextToken": "colors.foreground.hsl"
+      }
+    },
+    "brandWordmark": {
+      "fontFamilyToken": "branding.wordmark.fontFamily",
+      "fontStyle": "italic",
+      "fontWeight": 500,
+      "letterSpacing": "-0.02em",
+      "textTransform": "lowercase"
+    },
+    "layout": {
+      "editorialContainer": {
+        "maxWidth": "1120px",
+        "paddingX": {
+          "base": "24px",
+          "md": "48px",
+          "lg": "64px"
+        }
+      },
+      "sectionSpacing": {
+        "baseY": "80px",
+        "mdY": "112px",
+        "lgY": "128px"
+      }
+    }
+  }
+}
