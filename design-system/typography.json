@@ -1,31 +1,48 @@
 {
   "typography": {
     "fontFamily": {
-      "heading": "Libre Baskerville",
-      "body": "DM Sans",
-      "fallback": "system-ui"
+      "display": "Newsreader, Georgia, serif",
+      "sans": "Inter, system-ui, -apple-system, sans-serif"
     },
     "fontWeight": {
+      "light": 300,
       "regular": 400,
       "medium": 500,
+      "semibold": 600,
       "bold": 700
     },
     "fontSize": {
-      "h1": "56px",
-      "h2": "42px",
-      "h3": "28px",
-      "h4": "22px",
-      "body": "18px",
-      "small": "14px"
+      "displayXl": "3.75rem",
+      "displayLg": "3rem",
+      "displayMd": "2.25rem",
+      "displaySm": "1.5rem",
+      "bodyLg": "1.125rem",
+      "body": "1rem",
+      "bodySm": "0.875rem",
+      "caption": "0.8125rem",
+      "overline": "0.6875rem"
     },
     "lineHeight": {
-      "heading": 1.2,
-      "body": 1.7
+      "displayXl": 1.08,
+      "displayLg": 1.1,
+      "displayMd": 1.15,
+      "displaySm": 1.25,
+      "bodyLg": 1.7,
+      "body": 1.7,
+      "bodySm": 1.6,
+      "caption": 1.5,
+      "overline": 1.4
     },
     "letterSpacing": {
-      "tight": "-0.02em",
-      "normal": "0",
-      "wide": "0.05em"
+      "displayXl": "-0.025em",
+      "displayLg": "-0.02em",
+      "displayMd": "-0.015em",
+      "displaySm": "-0.01em",
+      "caption": "0.01em",
+      "overline": "0.08em"
+    },
+    "fontFeatureSettings": {
+      "body": "\"cv02\", \"cv03\", \"cv04\", \"cv11\""
     }
   }
 }

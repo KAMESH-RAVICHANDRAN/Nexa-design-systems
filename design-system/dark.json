@@ -1,53 +1,75 @@
 {
   "theme": "dark",
   "colors": {
-    "primary": {
-      "black": "#0F0F0F",
-      "dark": "#171717",
-      "surface": "#1F1F1F",
-      "white": "#FFFFFF"
-    },
-    "neutral": {
-      "900": "#0F0F0F",
-      "800": "#171717",
-      "700": "#1F1F1F",
-      "600": "#2A2A2A",
-      "500": "#404040",
-      "400": "#6B6B6B",
-      "300": "#9A9A9A",
-      "200": "#CFCFCF"
-    },
     "background": {
-      "main": "#0F0F0F",
-      "section": "#171717",
-      "card": "#1F1F1F",
-      "elevated": "#2A2A2A"
+      "hsl": "220 16% 6%"
     },
-    "text": {
-      "primary": "#FFFFFF",
-      "secondary": "#CFCFCF",
-      "muted": "#9A9A9A",
-      "disabled": "#6B6B6B"
+    "foreground": {
+      "hsl": "38 16% 90%"
+    },
+    "card": {
+      "hsl": "220 14% 9%",
+      "foregroundHsl": "38 16% 90%"
+    },
+    "popover": {
+      "hsl": "220 16% 6%",
+      "foregroundHsl": "38 16% 90%"
+    },
+    "primary": {
+      "hsl": "38 16% 90%",
+      "foregroundHsl": "220 16% 6%"
+    },
+    "secondary": {
+      "hsl": "220 12% 13%",
+      "foregroundHsl": "38 16% 90%"
+    },
+    "muted": {
+      "hsl": "220 12% 14%",
+      "foregroundHsl": "220 8% 55%"
+    },
+    "accent": {
+      "hsl": "220 10% 17%",
+      "foregroundHsl": "38 16% 90%"
+    },
+    "destructive": {
+      "hsl": "0 62.8% 30.6%",
+      "foregroundHsl": "0 0% 100%"
     },
     "border": {
-      "subtle": "#2A2A2A",
-      "default": "#404040"
+      "hsl": "220 10% 17%"
+    },
+    "input": {
+      "hsl": "220 10% 17%"
+    },
+    "ring": {
+      "hsl": "38 16% 90%"
+    },
+    "sidebar": {
+      "backgroundHsl": "220 14% 8%",
+      "foregroundHsl": "38 16% 90%",
+      "primaryHsl": "38 16% 90%",
+      "primaryForegroundHsl": "220 16% 6%",
+      "accentHsl": "220 10% 14%",
+      "accentForegroundHsl": "38 16% 90%",
+      "borderHsl": "220 10% 17%",
+      "ringHsl": "38 16% 90%"
     },
     "buttons": {
       "primary": {
-        "background": "#FFFFFF",
-        "text": "#0F0F0F"
+        "backgroundHsl": "38 16% 90%",
+        "textHsl": "220 16% 6%"
       },
       "secondary": {
         "background": "transparent",
-        "border": "#404040",
-        "text": "#FFFFFF"
+        "borderHsl": "220 10% 17%",
+        "textHsl": "38 16% 90%",
+        "hoverBackgroundHsl": "220 10% 17%"
       }
     }
   },
   "surfaces": {
-    "navbar": "#0F0F0F",
-    "footer": "#171717",
-    "card": "#1F1F1F"
+    "navbarHsl": "220 16% 6%",
+    "footerHsl": "220 14% 9%",
+    "cardHsl": "220 14% 9%"
   }
 }

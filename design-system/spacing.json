@@ -5,15 +5,26 @@
       "xs": "8px",
       "sm": "16px",
       "md": "24px",
-      "lg": "40px",
-      "xl": "64px",
-      "xxl": "120px"
+      "lg": "32px",
+      "xl": "48px",
+      "2xl": "64px",
+      "sectionMd": "80px",
+      "sectionLg": "112px",
+      "sectionXl": "128px"
     }
   },
   "layout": {
     "container": {
-      "maxWidth": "1200px",
-      "padding": "20px"
+      "maxWidth": "1400px",
+      "padding": "2rem"
+    },
+    "editorialContainer": {
+      "maxWidth": "1120px",
+      "paddingX": {
+        "base": "24px",
+        "md": "48px",
+        "lg": "64px"
+      }
     },
     "grid": {
       "columns": 12,
@@ -21,13 +32,15 @@
     }
   },
   "radius": {
-    "small": "6px",
-    "medium": "8px",
-    "large": "12px"
+    "sm": "calc(0.75rem - 4px)",
+    "md": "calc(0.75rem - 2px)",
+    "lg": "0.75rem"
   },
   "motion": {
-    "fast": "0.2s",
-    "normal": "0.3s",
-    "slow": "0.8s"
+    "accordion": "0.2s ease-out",
+    "scaleIn": "0.4s cubic-bezier(0.16, 1, 0.3, 1)",
+    "fadeIn": "0.5s cubic-bezier(0.16, 1, 0.3, 1)",
+    "fadeInUp": "0.7s cubic-bezier(0.16, 1, 0.3, 1)",
+    "pillButton": "0.2s ease"
   }
 }
