@@ -1,5 +1,12 @@
 {
   "theme": "light",
+  "profiles": {
+    "default": "ajStudiozEditorial",
+    "available": [
+      "ajStudiozEditorial",
+      "manusInspired"
+    ]
+  },
   "colors": {
     "background": {
       "hsl": "40 25% 97%"
@@ -64,6 +71,32 @@
         "borderHsl": "36 10% 88%",
         "textHsl": "220 14% 10%",
         "hoverBackgroundHsl": "35 14% 89%"
+      }
+    },
+    "manusInspired": {
+      "brandPalette": {
+        "blackHex": "#34322D",
+        "grayHex": "#F8F8F8",
+        "whiteHex": "#FFFFFF"
+      },
+      "semantic": {
+        "backgroundHsl": "40 3% 97%",
+        "foregroundHsl": "40 10% 18%",
+        "cardHsl": "0 0% 100%",
+        "cardForegroundHsl": "40 10% 18%",
+        "popoverHsl": "0 0% 100%",
+        "popoverForegroundHsl": "40 10% 18%",
+        "primaryHsl": "40 10% 18%",
+        "primaryForegroundHsl": "0 0% 100%",
+        "secondaryHsl": "40 3% 94%",
+        "secondaryForegroundHsl": "40 10% 18%",
+        "mutedHsl": "40 2% 85%",
+        "mutedForegroundHsl": "40 4% 45%",
+        "accentHsl": "40 3% 97%",
+        "accentForegroundHsl": "40 10% 18%",
+        "borderHsl": "40 3% 91%",
+        "inputHsl": "40 3% 91%",
+        "ringHsl": "40 10% 18%"
       }
     }
   },

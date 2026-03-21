@@ -1,8 +1,28 @@
 {
   "typography": {
+    "profiles": {
+      "default": "ajStudiozEditorial",
+      "available": [
+        "ajStudiozEditorial",
+        "manusInspired"
+      ]
+    },
     "fontFamily": {
       "display": "Newsreader, Georgia, serif",
       "sans": "Inter, system-ui, -apple-system, sans-serif"
+    },
+    "manusInspired": {
+      "fontFamily": {
+        "serif": "Libre Baskerville, Georgia, serif",
+        "sans": "DM Sans, system-ui, sans-serif",
+        "serifAsian": "Noto Serif, serif",
+        "sansAsian": "Noto Sans, sans-serif"
+      },
+      "styleIntent": {
+        "heading": "refined serif emphasis",
+        "body": "clean geometric sans",
+        "brandTone": "minimal and timeless"
+      }
     },
     "fontWeight": {
       "light": 300,

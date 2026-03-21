@@ -3,6 +3,14 @@ AJ STUDIOZ Design System (Full Support)
 This folder is the reusable source-of-truth token package for AJ STUDIOZ projects.
 It keeps AJ branding consistency while supporting Manus-style UI patterns such as elevated cards, chips, prompt inputs, and smooth editorial motion.
 
+Manus research upgrade (March 2026)
+- Research source: https://manus.im/brand and Manus documentation pages.
+- Confirmed Manus brand foundation: monochrome-first palette (black, gray, white).
+- Confirmed Manus typography foundation: Libre Baskerville (serif) + DM Sans (sans-serif), with Noto Serif/Noto Sans guidance for Asian scripts.
+- This design system now supports dual profiles in light and dark token files:
+	- ajStudiozEditorial (default)
+	- manusInspired
+
 Primary source project:
 - E:/AJ STUDIOZ/New folder (5)/ajstudioz-official
 
@@ -52,6 +60,11 @@ The starter script will:
 - Create src/theme/aj-theme.ts or src/theme/aj-theme.js
 - Create src/styles/aj-tokens.css
 - Auto-wire src/main.tsx, src/main.ts, src/main.jsx, or src/main.js with theme initialization
+
+Profile selection guidance:
+- Use ajStudiozEditorial when building official AJ STUDIOZ properties and marketing sites.
+- Use manusInspired when building AI-agent product experiences that need strict monochrome minimalism.
+- Keep one profile active per product surface to avoid mixed visual language.
 
 Use --force to overwrite generated files:
 

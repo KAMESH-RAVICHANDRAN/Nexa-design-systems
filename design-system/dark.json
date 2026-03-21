@@ -1,5 +1,12 @@
 {
   "theme": "dark",
+  "profiles": {
+    "default": "ajStudiozEditorial",
+    "available": [
+      "ajStudiozEditorial",
+      "manusInspired"
+    ]
+  },
   "colors": {
     "background": {
       "hsl": "220 16% 6%"
@@ -64,6 +71,27 @@
         "borderHsl": "220 10% 17%",
         "textHsl": "38 16% 90%",
         "hoverBackgroundHsl": "220 10% 17%"
+      }
+    },
+    "manusInspired": {
+      "semantic": {
+        "backgroundHsl": "0 0% 6%",
+        "foregroundHsl": "0 0% 100%",
+        "cardHsl": "0 0% 12%",
+        "cardForegroundHsl": "0 0% 100%",
+        "popoverHsl": "0 0% 12%",
+        "popoverForegroundHsl": "0 0% 100%",
+        "primaryHsl": "0 0% 100%",
+        "primaryForegroundHsl": "0 0% 6%",
+        "secondaryHsl": "0 0% 9%",
+        "secondaryForegroundHsl": "0 0% 100%",
+        "mutedHsl": "0 0% 16%",
+        "mutedForegroundHsl": "0 0% 60%",
+        "accentHsl": "0 0% 16%",
+        "accentForegroundHsl": "0 0% 100%",
+        "borderHsl": "0 0% 25%",
+        "inputHsl": "0 0% 25%",
+        "ringHsl": "0 0% 81%"
       }
     }
   },
